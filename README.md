@@ -20,3 +20,7 @@ ________________________________
 ### 実行の前準備
 
 実行の前に以下の作業をお願いします。  
+```
+$ git clone https://github.com/yukisekido/mypkg.git  
+$ cd mypkg/scripts  
+```  
