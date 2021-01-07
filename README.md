@@ -78,3 +78,8 @@ $ rosrun mypkg tentimes.py
 $ rostopic echo /tentimes  
 ```
 端末1でrosrun mypkg tentimes.pyを、端末2でrostopic echo /tentimesを実行すると、1.の情報を受け取って、端末2に1秒毎に1.の10倍を表示していきます。  
+
+________________________________
+
+### ライセンス
+[BSD 3-Clause "New" or "Revised" License]
