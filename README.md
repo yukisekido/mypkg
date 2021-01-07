@@ -6,7 +6,7 @@ ________________________________
 ### 内容について
 
 これは、ロボットシステム学の講義で作成したROSプログラムを一部改変したものです。
-プログラムを実行すると、約1秒間隔で数字をカウントしてくれます。プログラムは3種類あり、それぞれ異なるカウントをします。
+プログラムを実行すると、約1秒間隔で数字をカウントしてくれます。プログラムは3種類あり、それぞれ異なる表示をします。
 　　
 ________________________________
 
@@ -53,28 +53,28 @@ $ rostopic echo /count_up
 ```
 端末1でrosrun mypkg count.pyを、端末2でrostopic echo /count_upを実行すると、端末2に1秒間に1ずつカウントしていく様子が表示されます。  
 
-##### 2.1秒間に1.の2乗ずつカウント  
+##### 2.1秒毎に1.の2乗を表示 
 ```
 // 端末1で実行するもの //  
 $ cd ~/catkin_ws/src/mypkg/scripts  
 $ chmod +x square.py  
-$ rosrun mypkg count.py  
+$ rosrun mypkg square.py  
 ```  
 ```
 // 端末2で実行するもの //  
-$ rostopic echo /count_up  
+$ rostopic echo /square  
 ```
-端末1でrosrun mypkg count.pyを、端末2でrostopic echo /count_upを実行すると、端末2に1秒間に1ずつカウントしていく様子が表示されます。  
+端末1でrosrun mypkg square.pyを、端末2でrostopic echo /squareを実行すると、1.の情報を受け取って、端末2に1秒毎に1.の2乗を表示していきます。  
 
-##### 3.1秒間に1.の10倍ずつカウント  
+##### 3.1秒毎に1.の10倍を表示  
 ```
 // 端末1で実行するもの //  
 $ cd ~/catkin_ws/src/mypkg/scripts  
-$ chmod +x count.py  
-$ rosrun mypkg count.py  
+$ chmod +x tentimes.py  
+$ rosrun mypkg tentimes.py  
 ```  
 ```
 // 端末2で実行するもの //  
-$ rostopic echo /count_up  
+$ rostopic echo /tentimes  
 ```
-端末1でrosrun mypkg count.pyを、端末2でrostopic echo /count_upを実行すると、端末2に1秒間に1ずつカウントしていく様子が表示されます。  
+端末1でrosrun mypkg tentimes.pyを、端末2でrostopic echo /tentimesを実行すると、1.の情報を受け取って、端末2に1秒毎に1.の10倍を表示していきます。  
