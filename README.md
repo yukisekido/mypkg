@@ -82,4 +82,4 @@ $ rostopic echo /tentimes
 ________________________________
 
 ### ライセンス
-[BSD 3-Clause "New" or "Revised" License]
+[BSD 3-Clause "New" or "Revised" License](https://github.com/yukisekido/mypkg/blob/main/LICENSE)
