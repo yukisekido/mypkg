@@ -21,6 +21,10 @@ ________________________________
 
 実行の前に以下の作業をお願いします。  
 ```
+$ cd ~/catkin_ws/src  
 $ git clone https://github.com/yukisekido/mypkg.git  
-$ cd mypkg/scripts  
+$ cd ~/catkin_ws  
+$ catkin_make  
+$ cd src/mypkg/scripts  
+$ ls //プログラムがあるかの確認  
 ```  
