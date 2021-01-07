@@ -70,7 +70,7 @@ $ rosrun mypkg square.py
 // 端末3で実行するもの //  
 $ rostopic echo /square  
 ```
-端末1で rosrun mypkg count.py を、端末2で rosrun mypkg square.py を、端末3で rostopic echo /square を実行すると、1.の情報を受け取って、端末3に1秒毎に1.の2乗を表示していきます。  
+端末1で rosrun mypkg count.py を、端末2で rosrun mypkg square.py を、端末3で rostopic echo /square を実行すると、端末1の情報を受け取って、端末3に1秒毎に1.の2乗を表示していきます。  
 ＊ rosrun mypkg count.py | rosrun mypkg square.py とすることで一気に実行させることもできます。
 
 ##### 3.1秒毎に1.の10倍を表示  
@@ -85,7 +85,7 @@ $ rosrun mypkg tentimes.py
 // 端末3で実行するもの //  
 $ rostopic echo /tentimes  
 ```
-端末1で rosrun mypkg count.py を、端末2で rosrun mypkg tentimes.py を、端末3で rostopic echo /tentimes を実行すると、1.の情報を受け取って、端末3に1秒毎に1.の10倍を表示していきます。  
+端末1で rosrun mypkg count.py を、端末2で rosrun mypkg tentimes.py を、端末3で rostopic echo /tentimes を実行すると、端末1の情報を受け取って、端末3に1秒毎に1.の10倍を表示していきます。  
 ＊ rosrun mypkg count.py | rosrun mypkg tentimes.py とすることで一気に実行させることもできます。
 ________________________________
 
