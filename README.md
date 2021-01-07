@@ -81,5 +81,11 @@ $ rostopic echo /tentimes
 
 ________________________________
 
+### 動画
+  
+こちらから動画に移動できます。  
+
+________________________________
+
 ### ライセンス
 [BSD 3-Clause "New" or "Revised" License](https://github.com/yukisekido/mypkg/blob/main/LICENSE)
