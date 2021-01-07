@@ -13,7 +13,12 @@ ________________________________
 ### 必要となるもの
 
 ・Raspberry Pi 4 Model B　×1  
-・Raspberry Piを動かすのに必要なもの
+・Raspberry Piを動かすのに必要なもの  
+
+また、ROSの環境は以下の通りです。  
+● ROS Noetic  
+・OS：Ubuntu 20.04.1 LTS  
+・ROS Distribution：Noetic Ninjemys
 
 ________________________________
 
