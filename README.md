@@ -42,7 +42,7 @@ $ roscore &
 ```  
 次にプログラムを実行します。プログラムは全部で3種類あります。  
 
-##### 1.1秒間に1ずつカウント  
+##### 1.1秒毎に1ずつカウント  
 ```
 // 端末1で実行するもの //  
 $ cd ~/catkin_ws/src/mypkg/scripts  
@@ -52,7 +52,7 @@ $ rosrun mypkg count.py
 // 端末2で実行するもの //  
 $ rostopic echo /count_up  
 ```
-端末1で rosrun mypkg count.py を、端末2で rostopic echo /count_up を実行すると、端末2に1秒間に1ずつカウントしていく様子が表示されます。  
+端末1で rosrun mypkg count.py を、端末2で rostopic echo /count_up を実行すると、端末2に1秒毎に1ずつカウントしていく様子が表示されます。  
 
 ##### 2.1秒毎に1.を2乗した数字を表示  
 まず1.の「端末1で実行するもの」を実行させてください。その上で以下を実行します。  
