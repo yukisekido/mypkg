@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: BSD-3.0
 
-#Copyright (C) 2021 Yuki Sekido. All rights reserved.
+#Copyright (C) 2021 Yuki Sekido and Ryuichi Ueda. All rights reserved.
 
 #!/usr/bin/env python3
 
