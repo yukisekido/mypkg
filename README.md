@@ -10,12 +10,9 @@ ________________________________
 　　
 ________________________________
 
-### 必要となるもの
+### ROSについて
 
-・Raspberry Pi 4 Model B　×1  
-・Raspberry Piを動かすのに必要なもの  
-
-また、ROSの環境は以下の通りです。  
+ROSの環境は以下の通りです。  
 ● ROS Noetic  
 ・OS：Ubuntu 20.04.1 LTS  
 ・ROS Distribution：Noetic Ninjemys
@@ -49,7 +46,6 @@ $ roscore &
 ```
 // 端末1で実行するもの //  
 $ cd ~/catkin_ws/src/mypkg/scripts  
-$ chmod +x count.py  
 $ rosrun mypkg count.py  
 ```  
 ```
@@ -63,7 +59,6 @@ $ rostopic echo /count_up
 ```
 // 端末2で実行するもの //  
 $ cd ~/catkin_ws/src/mypkg/scripts  
-$ chmod +x square.py  
 $ rosrun mypkg square.py  
 ```  
 ```
@@ -78,7 +73,6 @@ $ rostopic echo /square
 ```
 // 端末2で実行するもの //  
 $ cd ~/catkin_ws/src/mypkg/scripts  
-$ chmod +x tentimes.py  
 $ rosrun mypkg tentimes.py  
 ```  
 ```
